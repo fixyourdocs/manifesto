@@ -2,7 +2,7 @@
 
 # AI agents need a feedback protocol for the docs they break
 
-*by Maciek Stopa, FixYourDocs · 2026-05-24*
+*FixYourDocs · 2026-05-24*
 
 Every coding agent breaks against bad documentation, every day. The agent
 retries, falls back to guessing, fabricates a function that does not exist,
