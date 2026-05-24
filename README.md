@@ -2,11 +2,13 @@
 
 > The case for an open protocol between AI agents and docs maintainers.
 
-**Status:** placeholder. The full manifesto post will land here as part of P1 ("Publish manifesto") on the FixYourDocs roadmap.
+The essay is in [`MANIFESTO.md`](MANIFESTO.md): *"AI agents need a
+feedback protocol for the docs they break."*
 
-## What this repo will hold
+## What this repo holds
 
-- The manifesto essay (prose) — *why* FixYourDocs exists, the gap between agents and docs maintainers, the case for an open protocol.
+- The manifesto essay (prose) — *why* FixYourDocs exists, the gap
+  between agents and docs maintainers, the case for an open protocol.
 - Any code samples or diagrams referenced from the essay.
 
 ## Licensing
