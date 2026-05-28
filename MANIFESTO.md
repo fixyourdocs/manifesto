@@ -159,10 +159,12 @@ service hiding inside.
 
 **The hub (FSL-1.1-Apache-2.0, hosted service).** A receiving endpoint
 that organisations can point their `/.well-known/docs-feedback.json`
-discovery file at, instead of standing up their own. It forwards each
-report to a GitHub Issue on the maintainer's connected repo — via the
-FixYourDocs GitHub App — and deduplicates so the same problem does not
-file twice. It is licensed under the
+discovery file at, instead of standing up their own. It routes each
+report — by the doc URL's host — to a GitHub Issue on the repo of the
+maintainer who has verified, with a DNS-TXT record, that they own that
+domain — via the FixYourDocs GitHub App — and deduplicates so the same
+problem does not file twice. Verifying ownership is what stops anyone
+from pointing someone else's docs at their own repo. It is licensed under the
 [Functional Source License](https://fsl.software/) — source-available,
 non-compete for two years, then automatically Apache 2.0. Sentry
 [adopted FSL](https://blog.sentry.io/introducing-the-functional-source-license-freedom-without-free-riding/)
@@ -195,8 +197,9 @@ If you are a docs maintainer:
   [`fixyourdocs/agents-md-snippet`](https://github.com/fixyourdocs/agents-md-snippet).
 - Point your `/.well-known/docs-feedback.json` at either your own
   receiving endpoint or the hosted hub at `hub.fixyourdocs.io` once it
-  is live. Pick whichever you prefer; either path uses the same
-  protocol.
+  is live. On the hosted hub you verify you own the docs domain (a
+  DNS-TXT record) so its reports route to your repo. Pick whichever you
+  prefer; either path uses the same protocol.
 - If something about the spec rubs you the wrong way, file an issue at
   [`fixyourdocs/protocol`](https://github.com/fixyourdocs/protocol).
   The spec is v0 for a reason — every constraint is a candidate for
