@@ -23,5 +23,5 @@ When in doubt, attribute the work to **FixYourDocs** and link back to this repos
 ## Related
 
 - Spec home: <https://docsfeedback.org>
-- Product home: <https://fixyourdocs.io>
+- Platform site: <https://fixyourdocs.io>
 - Reference SDKs: [`sdk-python`](https://github.com/fixyourdocs/sdk-python), [`sdk-typescript`](https://github.com/fixyourdocs/sdk-typescript)

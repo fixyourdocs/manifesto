@@ -2,7 +2,7 @@
 
 # AI agents need a feedback protocol for the docs they break
 
-*FixYourDocs · 2026-05-24*
+*Maciek Stopa · 2026-05-24*
 
 Every coding agent breaks against bad documentation, every day. The agent
 retries, falls back to guessing, fabricates a function that does not exist,
@@ -157,11 +157,12 @@ integration. These are public, permissively licensed, and will remain
 so. They have no telemetry, no phone-home, no "free tier" of a paid
 service hiding inside.
 
-**The hub (FSL-1.1-Apache-2.0, commercial SaaS).** A receiving endpoint
+**The hub (FSL-1.1-Apache-2.0, hosted service).** A receiving endpoint
 that organisations can point their `/.well-known/docs-feedback.json`
-discovery file at, instead of standing up their own. It collects
-reports, groups them by page, deduplicates, and produces a digest the
-docs team actually reads. It is licensed under the
+discovery file at, instead of standing up their own. It forwards each
+report to a GitHub Issue on the maintainer's connected repo — via the
+FixYourDocs GitHub App — and deduplicates so the same problem does not
+file twice. It is licensed under the
 [Functional Source License](https://fsl.software/) — source-available,
 non-compete for two years, then automatically Apache 2.0. Sentry
 [adopted FSL](https://blog.sentry.io/introducing-the-functional-source-license-freedom-without-free-riding/)
