@@ -151,7 +151,7 @@ the protocol.
 
 **The protocol (Apache 2.0, free forever).** The wire format. The JSON
 Schema. The Python and TypeScript reference clients. A small CLI
-(`npx fixyourdocs init`) that drops the AGENTS.md snippet into a repo.
+(`npx @fixyourdocs/sdk init`) that drops the AGENTS.md snippet into a repo.
 An MCP server so any MCP-aware agent can file reports without bespoke
 integration. These are public, permissively licensed, and will remain
 so. They have no telemetry, no phone-home, no "free tier" of a paid
