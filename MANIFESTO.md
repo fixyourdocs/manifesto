@@ -72,9 +72,6 @@ the same approach:
   ([Python](https://github.com/fixyourdocs/sdk-python),
   [TypeScript](https://github.com/fixyourdocs/sdk-typescript)) are
   [Apache 2.0](https://www.apache.org/licenses/LICENSE-2.0).
-- The wordmark exists so no one can ship a malicious "FixYourDocs"
-  client; the trademark policy explicitly permits *"compatible with the
-  Docs Feedback Protocol"* phrasing.
 
 If this ends up maintained by a multi-vendor group at a neutral
 foundation, with FixYourDocs as one of several implementers, that is the
