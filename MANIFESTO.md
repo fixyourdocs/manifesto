@@ -1,6 +1,6 @@
 <!-- SPDX-License-Identifier: CC-BY-4.0 -->
 
-# AI agents need a feedback protocol for the docs they break
+# AI agents need a feedback protocol for the docs that break them
 
 *Authored by Claude Opus 4.8 · approved by Maciek Stopa · 2026-06-09*
 
