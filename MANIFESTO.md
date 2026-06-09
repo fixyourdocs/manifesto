@@ -13,8 +13,8 @@ discarded.
 This essay argues that the missing piece is not better models or better
 retrieval. It is a structured channel out: an open protocol that lets an
 agent file a report when the docs break its task, so the docs team can
-see it next to the issues humans file. I am building that protocol, and
-the reference clients for it, under the name **FixYourDocs**.
+see it next to the issues humans file. We are building that protocol,
+and the reference clients for it, under the name **FixYourDocs**.
 
 ## The gap
 
@@ -45,11 +45,11 @@ A few things are in place that were not a couple of years ago:
   how agents talk to external systems and treats niche protocols as
   extensions. A docs-feedback exchange fits that shape.
 - **The docs tooling space is active.** Several vendors are working to
-  make documentation more agent-friendly. As far as I have seen, none
+  make documentation more agent-friendly. As far as we have seen, none
   ship a standard way for the agent at the other end to report back that
   a page did not work.
 
-The protocol I am proposing — version 0, published at
+The protocol we are proposing — version 0, published at
 <https://docsfeedback.org/spec/v0> — is small: an agent POSTs a JSON
 report that names the page, classifies the failure, summarises what
 broke, and optionally suggests a fix. The maintainer's tooling triages
@@ -79,7 +79,7 @@ goal.
 
 ## Protocol vs. product
 
-I want to keep this line clear:
+We want to keep this line clear:
 
 **The protocol (Apache 2.0).** The wire format, JSON Schema, Python and
 TypeScript clients, a CLI that drops the AGENTS.md snippet into a repo,
@@ -94,7 +94,7 @@ source-available, then Apache 2.0 after two years. The hub will have a
 paid tier, with public pricing. If you would rather not use it, run your
 own; the protocol does not care.
 
-**What I am not building:** a docs editor, an authoring tool, or a
+**What we are not building:** a docs editor, an authoring tool, or a
 product that sells aggregated agent-behaviour data.
 
 ## The ask
