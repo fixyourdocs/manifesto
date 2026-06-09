@@ -38,8 +38,8 @@ A few things are in place that were not a couple of years ago:
 
 - **Agents already read repo instruction files.** The
   [AGENTS.md format](https://agents.md) gives a project a
-  machine-readable place to say *"if the docs are wrong, here is how to
-  tell me."*
+  machine-readable place to tell agents *"if you hit broken docs here,
+  this is how to report it."*
 - **There is a shared transport layer.** The
   [Model Context Protocol](https://modelcontextprotocol.io) standardises
   how agents talk to external systems and treats niche protocols as
