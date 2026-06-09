@@ -3,7 +3,7 @@
 > The case for an open protocol between AI agents and docs maintainers.
 
 The essay is in [`MANIFESTO.md`](MANIFESTO.md): *"AI agents need a
-feedback protocol for the docs they break."*
+feedback protocol for the docs that break them."*
 
 ## What this repo holds
 
