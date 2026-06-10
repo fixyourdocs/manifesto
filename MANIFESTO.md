@@ -103,6 +103,15 @@ product that sells aggregated agent-behaviour data.
   [`fixyourdocs/agents-md-snippet`](https://github.com/fixyourdocs/agents-md-snippet)
   to your `AGENTS.md`, and point `/.well-known/docs-feedback.json` at
   your own endpoint or the hosted hub once it is live.
+- **App developers:** you do not have to wait for a library to adopt
+  this. Install
+  [`@fixyourdocs/mcp-server`](https://www.npmjs.com/package/@fixyourdocs/mcp-server)
+  into your *own* agent's global config, and when a third-party doc that
+  your agent consulted turns out to be broken it will offer — with your
+  go-ahead, and on public docs only — to file a report, even if that
+  project never added the snippet. The report still reaches a maintainer
+  only once they have claimed and verified their domain, so this widens
+  who can *send* without changing who *receives*.
 - **Agent builders:** read the [v0 spec](https://docsfeedback.org/spec/v0),
   install [`fixyourdocs`](https://pypi.org/project/fixyourdocs/) or
   [`@fixyourdocs/sdk`](https://www.npmjs.com/package/@fixyourdocs/sdk),
