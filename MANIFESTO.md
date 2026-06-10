@@ -87,7 +87,7 @@ and an MCP server. Permissively licensed, no telemetry.
 
 **The hub (FSL-1.1-Apache-2.0, hosted).** A receiving endpoint an
 organisation can point its `/.well-known/docs-feedback.json` at instead
-of running its own. It verifies domain ownership via a DNS-TXT record,
+of running its own. It verifies that a maintainer owns the docs they claim,
 routes each report to the right repo's GitHub Issues, and deduplicates.
 It is under the [Functional Source License](https://fsl.software/) —
 source-available, then Apache 2.0 after two years. The hub will have a
@@ -110,8 +110,8 @@ product that sells aggregated agent-behaviour data.
   your agent consulted turns out to be broken it will offer — with your
   go-ahead, and on public docs only — to file a report, even if that
   project never added the snippet. The report still reaches a maintainer
-  only once they have claimed and verified their domain, so this widens
-  who can *send* without changing who *receives*.
+  only once they have claimed and verified the docs they own, so this
+  widens who can *send* without changing who *receives*.
 - **Agent builders:** read the [v0 spec](https://docsfeedback.org/spec/v0),
   install [`fixyourdocs`](https://pypi.org/project/fixyourdocs/) or
   [`@fixyourdocs/sdk`](https://www.npmjs.com/package/@fixyourdocs/sdk),
